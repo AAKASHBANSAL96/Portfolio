@@ -1,10 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillMail, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -17,22 +13,26 @@ function Footer() {
           <h3>Designed and Developed by Aakash Bansal</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} AB</h3>
+          <h3>Copyright © {year} Aakash Bansal</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Aakash962002"
+                href="https://github.com/aakashbansal96"
+                target="_blank"
+                rel="noreferrer"
                 style={{ color: "white" }}
               >
                 <AiFillGithub />
               </a>
             </li>
-            
+
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/aakash-bansal-82a103206/"
+                target="_blank"
+                rel="noreferrer"
                 style={{ color: "white" }}
               >
                 <FaLinkedinIn />
@@ -40,10 +40,20 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/_aakash_b962002/?igshid=16ng2qluzdl1r"
+                href="https://www.instagram.com/_bansal962002/?igshid=16ng2qluzdl1r"
+                target="_blank"
+                rel="noreferrer"
                 style={{ color: "white" }}
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:aakash962002@gmail.com"
+                style={{ color: "white" }}
+              >
+                <AiFillMail />
               </a>
             </li>
           </ul>

@@ -11,7 +11,7 @@ function AboutCard() {
             { textAlign: "justify" }
         } >
         Hi Everyone, I am < span className = "purple" > Aakash Bansal </span>
-        from <span className = "purple" > Gujarat, India. </span> <br/> I am a Junior Backend Developer < br/>
+        from <span className = "purple" > Gujarat, India. </span> <br/> I am a Full-Stack Developer < br/>
         <br/>
         Apart from coding, some other activities that I love to do !
             </p> 
